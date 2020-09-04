@@ -1,6 +1,9 @@
-Thanks for downloading this theme!
+Proyecto Desarrollo Web 2020
+Danilo Castillo 
+7690-14-
 
-Theme Name: Folio
-Theme URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
-Author: BootstrapMade.com
-Author URL: https://bootstrapmade.com
+
+Template:
+Template URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
+
+

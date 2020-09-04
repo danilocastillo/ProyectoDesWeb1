@@ -284,7 +284,7 @@ nav ul li a {
 }
 
 /*-----------------------------------------------------------------------------------*/
-/*  Aout-us
+/*  About-us
 /*-----------------------------------------------------------------------------------*/
 
 #about {
@@ -312,12 +312,16 @@ nav ul li a {
   font-family: 'Playfair Display', serif;
   font-size: 28px;
   text-align: left;
+  list-style-type:circle;
 }
 
 #about .about-descr .separator {
   max-width: 80%;
   margin-bottom: 0;
   text-align: left;
+  list-style-type:circle;
+
+
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -348,6 +352,7 @@ nav ul li a {
   margin: 0;
   font-size: 13px;
   line-height: 22px;
+ 
 }
 
 .services-block i {
