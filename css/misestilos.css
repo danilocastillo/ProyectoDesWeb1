@@ -27,3 +27,19 @@
     align-content: stretch; 
 
 }
+#BIKE{
+    float: left;
+    width:280px;
+    height:170x ;
+    margin-right: 20px;
+    display: flex;
+    align-content: stretch; 
+
+}
+#GIT{
+    float: left;
+    width:130px;
+    height:170x ;
+    margin-right: 20px;
+
+}
