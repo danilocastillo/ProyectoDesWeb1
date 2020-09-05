@@ -1,39 +1,39 @@
 #QM{
-    float: left;
+    float: center;
     width:260px;
     height:140px ;
     margin-right: 20px;
     display: flex;
-    align-content: stretch;
+    align-content: center;
     flex-wrap: wrap;
 }
 
 #BI{
-    float: left;
+    float: center;
     width:330px;
     height:132px ;
     margin-right: 20px;
     display: flex;
-    align-content: stretch; 
+    align-content: center; 
 
 }
 
 #SCM{
-    float: left;
+    float: center;
     width:280px;
     height:110px ;
     margin-right: 20px;
     display: flex;
-    align-content: stretch; 
+    align-content: center; 
 
 }
 #BIKE{
-    float: left;
+    float: center;
     width:280px;
     height:170x ;
     margin-right: 20px;
     display: flex;
-    align-content: stretch; 
+    align-content: center; 
 
 }
 #GIT{
