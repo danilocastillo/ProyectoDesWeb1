@@ -124,11 +124,8 @@
                     <img src="images/ASIS.jpg" class="img-responsive" alt="me">
                   </div>
                 </div>
-              </div>
-            
-                          
+              </div>                                 
               </ul>
-
             </div>
           </div>
 
@@ -164,10 +161,11 @@
 
                   <div class="form-group">
                     
-                    <textarea nameclass="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us" placeholder="Message" maxlength="150"></textarea>
                     
+                    <textarea id = "areatexto" nameclass="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us" placeholder="Message" maxlength="150" onkeyup="countTextArea()"></textarea>
+
                     <div class="validation"></div>
-                    <label> characters remaining: <span></span>
+                    <label> characters remaining: <span id="remaining"></span>
                     
                   </div>
                 </div>
@@ -229,6 +227,20 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  
+
+   
+  <script>
+    function countTextArea() {
+
+        var limit = 150;
+        var used = $('#areatexto').val().length;
+        var available = limit - used;
+        $('#remaining').text(available);
+    }
+  </script> 
+
+
 
 </body>
 
